@@ -96,43 +96,55 @@
 
 ////////// PROBLEM 11 //////////
 
-let z = 5;
-// Create a while loop that continues to run while z is greater than 0. Within the while loop, log a countdown from the value of z to 1. Once you have logged the countdown, make sure you decrement z by 1. If your code is running properly, you should see: 5,4,3,2,1,4,3,2,1,3,2,1,2,1,1.
-while (z > 0){
-  console.log(z)
-  z -= 1
-  if (z == 0){
-    let x = 4;
-    while (x > 0){
-      console.log(x)
-      x -= 1 
-      if (x == 0){
-        let y = 3;
-        while (y > 0){
-          console.log(y)
-          y -= 1
-          if (y == 0){
-            let v = 2
+// let z = 5;
+// // Create a while loop that continues to run while z is greater than 0. Within the while loop, log a countdown from the value of z to 1. Once you have logged the countdown, make sure you decrement z by 1. If your code is running properly, you should see: 5,4,3,2,1,4,3,2,1,3,2,1,2,1,1.
+// while (z > 0){
+//   console.log(z)
+//   z -= 1
+//   if (z == 0){
+//     let x = 4;
+//     while (x > 0){
+//       console.log(x)
+//       x -= 1 
+//       if (x == 0){
+//         let y = 3;
+//         while (y > 0){
+//           console.log(y)
+//           y -= 1
+//           if (y == 0){
+//             let v = 2
           
-            while (v > 0){
-              console.log(v)
-              v -= 1
+//             while (v > 0){
+//               console.log(v)
+//               v -= 1
 
-          }
+//           }
 
-          }
-        }
-      }
+//           }
+//         }
+//       }
 
-    }
-  }
+//     }
+//   }
    
 
 
-}
+// }
 //daihsdbhd
 //CODE HERE
 //asdadsfadsf
 //adadsadsasd
 //dsfhu
 //adsads
+
+
+
+
+let z = 5
+while (z > 0){
+  //countdown from z to 0
+  for (let i = z; i>0; i--){
+    console.log(i)
+  }
+z -= 1
+};
