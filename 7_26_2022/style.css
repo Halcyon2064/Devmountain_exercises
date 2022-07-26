@@ -1,0 +1,42 @@
+/* #Hello-world{
+    background-color:aquamarine
+}
+.content{
+    background-color: brown;
+}
+#article-image{
+    width: 50%;
+    height: 100%;
+}
+
+#position-article{
+    position: relative;
+    top: 0px;
+    width: 70rem;
+    height: 20rem;
+
+} */
+
+main{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items:center;
+    width: 100vw;
+    height: 100vh
+    
+}
+
+.flex-boxes{
+    width: 20vw;
+    height: 20vh;
+    background-color: red;
+}
+
+#box1{
+    background-color: blue;
+}
+
+#box2{
+    background-color: green;
+}

@@ -35,10 +35,10 @@ const cart = [
 
 //CODE HERE
 let reducer = (cart)=>{
-    return cart.map((item)=>item.name).reduce((prev_value, curr_value) => prev_value + curr_value, 0)
+    return cart.map((item)=>item.price).reduce((prev_value, curr_value) => prev_value + curr_value, 0)
 }
 
-
+console.log(reducer(cart))
 
 
 
