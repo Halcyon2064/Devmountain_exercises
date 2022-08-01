@@ -1,0 +1,5 @@
+*How to start express project*
+`npm init -y` -y sikps questions
+install dependencies
+`npm  i express cors`
+make a git ignore file in folder
